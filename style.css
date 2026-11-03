@@ -1,0 +1,65 @@
+body {
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.15)
+    ),
+    url("foto.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* LOGO WITAPALA */
+.navbar-countainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-countainer img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    filter: drop-shadow(2px 3px 5px rgba(0,0,0,0.5));
+}
+
+.h2-navbar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ul-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 10px 0;
+    list-style: none;
+    gap: 15px;
+}
+
+.li-navbar {
+    display: block;
+    text-align: center;
+}
+
+.li-navbar:hover {
+    background-color: rgba(255, 255, 255, 0.224);
+border-radius: 20px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+
+}

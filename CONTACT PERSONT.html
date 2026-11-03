@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>WEB WITAPALA</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+     <!-- NAVIGATION BAR -->
+        <div class="navbar-countainer">
+        <img src="wpl.png" alt="Logo WITAPALA">
+    </div>
+
+    <div>
+        <h2 class="h2-navbar">
+            <a href="WEB WITAPALA.html">HOME</a>
+        </h2>
+    </div>
+    <style>
+        .social-floating {
+          position: fixed;
+          right: 20px;
+          bottom: 20px;
+          z-index: 99999;
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+        }
+        
+        .social-floating a {
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 4px 12px rgba(0,0,0,.2);
+          transition: transform .3s ease;
+          animation: pulse 2s infinite;
+        }
+        
+        .social-floating a:hover {
+          transform: scale(1.12);
+        }
+        
+        .social-floating svg {
+          width: 32px;
+          height: 32px;
+          fill: white;
+        }
+        
+        .wa-btn { background: #25D366; }
+        
+        .ig-btn {
+          background: linear-gradient(
+            45deg, #feda75, #fa7e1e,
+            #d62976, #962fbf, #4f5bd5
+          );
+        }
+        
+        @keyframes pulse {
+          0%, 100% { box-shadow: 0 4px 12px rgba(0,0,0,.2); }
+          50% { box-shadow: 0 4px 18px rgba(37,211,102,.4); }
+        }
+        </style>
+        
+        <div class="social-floating">
+        
+          <!-- WhatsApp -->
+          <a class="wa-btn"
+             href="https://wa.me/6285122610406"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24">
+              <path d="M20.52 3.48A11.87 11.87 0 0 0 12.08 0C5.52 0 .18 5.34.18 11.9c0 2.1.55 4.15 1.6 5.96L.08 24l6.3-1.65a11.9 11.9 0 0 0 5.7 1.45h.01c6.56 0 11.9-5.34 11.9-11.9a11.82 11.82 0 0 0-3.47-8.42ZM12.08 21.8a9.9 9.9 0 0 1-5.05-1.39l-.36-.21-3.74.98 1-3.64-.23-.37a9.86 9.86 0 1 1 8.38 4.63Zm5.42-7.39c-.3-.15-1.77-.87-2.05-.97-.28-.1-.48-.15-.68.15-.2.3-.78.97-.95 1.17-.18.2-.35.23-.65.08-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.47-1.76-1.64-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.08-.15-.68-1.64-.93-2.25-.24-.59-.49-.51-.68-.52h-.58c-.2 0-.53.08-.8.38-.28.3-1.05 1.02-1.05 2.49s1.08 2.89 1.23 3.09c.15.2 2.12 3.24 5.14 4.55.72.31 1.28.5 1.71.64.72.23 1.37.2 1.89.12.58-.09 1.77-.73 2.02-1.44.25-.71.25-1.32.18-1.44-.08-.13-.28-.2-.58-.35Z"/>
+            </svg>
+          </a>
+        
+          <!-- Instagram -->
+          <a class="ig-btn"
+             href="https://www.instagram.com/WITAPALA/"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Instagram">
+            <svg viewBox="0 0 24 24">
+              <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.5-3a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"/>
+            </svg>
+          </a>
+        
+        </div>
+    </body>
+</html>
